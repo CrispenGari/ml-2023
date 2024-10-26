@@ -4,8 +4,9 @@
 
 1. [`00_LOADSHEDDING_IMPACT`](/00_LOADSHEDDING_IMPACT/README.md) - a predictive machine learning task using supervised and unsupervised clustering in predicting the effects of loadshedding to university students in south africa.
 2. [`01_NSFAS_RS`](/01_NSFAS_RS/README.md)- a binary classification model using unsupervised machine leaning algorithm for label clustering and machine learning classification algorithm to classify the eligibility of a student to qualify for funding.
-
-This repository is using the `MIT` License which reads as follows:
+3. [`02_CUSTOMER_SEGMENTATION`](/02_CUSTOMER_SEGMENTATION/00_CUSTOMER_SEGMENTATION.ipynb)- Customer segmentation using unsupervised machine learning clustering.
+4. [`03_IMAGE_ROI_CLUSTERING`](/03_IMAGE_ROI_CLUSTERING/IMAGE_ROI.ipynb)- Clustering of images by extracting ` Region of Interest`` from images.
+This repository is using the  `MIT` License which reads as follows:
 
 ```shell
 MIT License
