@@ -1,0 +1,59 @@
+{
+  "seed": 42,
+  "run_mode": "full",
+  "dataset_path": "Wednesday-workingHours.pcap_ISCX.csv",
+  "selected_features": [
+    "BwdPackets/s",
+    "BwdPacketLengthStd",
+    "MinPacketLength",
+    "DestinationPort",
+    "PSHFlagCount",
+    "FwdIATTotal",
+    "FINFlagCount",
+    "FwdPSHFlags",
+    "act_data_pkt_fwd"
+  ],
+  "class_names": [
+    "BENIGN",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "DoS Slowhttptest",
+    "DoS slowloris",
+    "Heartbleed"
+  ],
+  "class_weights": [
+    0.26236901596536166,
+    11.216539440203562,
+    0.4996269986996474,
+    20.996405992898588,
+    19.91502382125842,
+    11545.02380952381
+  ],
+  "initialization_methods": [
+    "default",
+    "xavier_uniform",
+    "xavier_normal",
+    "kaiming_uniform",
+    "kaiming_normal",
+    "lecun_normal",
+    "orthogonal",
+    "sparse",
+    "truncated_xavier_normal",
+    "nguyen_widrow",
+    "lsuv"
+  ],
+  "hidden_dims": [
+    128,
+    64,
+    32
+  ],
+  "dropout": 0.15,
+  "batch_size": 1024,
+  "maximum_epochs": 100,
+  "early_stopping_patience": 15,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "validation_selected_method": "truncated_xavier_normal",
+  "accuracy_ci_method": "95% Wilson score interval",
+  "explainability_method": "Integrated Gradients"
+}

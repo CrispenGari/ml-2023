@@ -1,0 +1,55 @@
+class_name,feature,mean_absolute_attribution
+BENIGN,BwdPackets/s,3.8434072
+BENIGN,BwdPacketLengthStd,2.3462143
+BENIGN,MinPacketLength,7.5739474
+BENIGN,DestinationPort,70.25219
+BENIGN,PSHFlagCount,8.849553
+BENIGN,FwdIATTotal,4.668726
+BENIGN,FINFlagCount,4.128699
+BENIGN,FwdPSHFlags,4.6705656
+BENIGN,act_data_pkt_fwd,1.0157069
+DoS GoldenEye,BwdPackets/s,3.1881235
+DoS GoldenEye,BwdPacketLengthStd,7.8049555
+DoS GoldenEye,MinPacketLength,3.9517882
+DoS GoldenEye,DestinationPort,31.615324
+DoS GoldenEye,PSHFlagCount,6.2735
+DoS GoldenEye,FwdIATTotal,1.3000833
+DoS GoldenEye,FINFlagCount,5.6368155
+DoS GoldenEye,FwdPSHFlags,1.6141818
+DoS GoldenEye,act_data_pkt_fwd,1.6342635
+DoS Hulk,BwdPackets/s,4.4553895
+DoS Hulk,BwdPacketLengthStd,10.083572
+DoS Hulk,MinPacketLength,3.6922042
+DoS Hulk,DestinationPort,29.08175
+DoS Hulk,PSHFlagCount,6.698746
+DoS Hulk,FwdIATTotal,4.702121
+DoS Hulk,FINFlagCount,9.182907
+DoS Hulk,FwdPSHFlags,3.1421282
+DoS Hulk,act_data_pkt_fwd,1.4063572
+DoS Slowhttptest,BwdPackets/s,1.6414447
+DoS Slowhttptest,BwdPacketLengthStd,16.703503
+DoS Slowhttptest,MinPacketLength,3.2650552
+DoS Slowhttptest,DestinationPort,16.916662
+DoS Slowhttptest,PSHFlagCount,19.399914
+DoS Slowhttptest,FwdIATTotal,3.4416902
+DoS Slowhttptest,FINFlagCount,2.4094768
+DoS Slowhttptest,FwdPSHFlags,2.9245603
+DoS Slowhttptest,act_data_pkt_fwd,0.9953195
+DoS slowloris,BwdPackets/s,2.7637708
+DoS slowloris,BwdPacketLengthStd,11.624167
+DoS slowloris,MinPacketLength,2.691831
+DoS slowloris,DestinationPort,13.919153
+DoS slowloris,PSHFlagCount,10.909408
+DoS slowloris,FwdIATTotal,2.8096135
+DoS slowloris,FINFlagCount,3.32358
+DoS slowloris,FwdPSHFlags,2.7879393
+DoS slowloris,act_data_pkt_fwd,0.5141873
+Heartbleed,BwdPackets/s,2.8671596
+Heartbleed,BwdPacketLengthStd,24.985586
+Heartbleed,MinPacketLength,1.5779649
+Heartbleed,DestinationPort,19.972713
+Heartbleed,PSHFlagCount,0.29573762
+Heartbleed,FwdIATTotal,12.261861
+Heartbleed,FINFlagCount,3.7945962
+Heartbleed,FwdPSHFlags,1.0720824
+Heartbleed,act_data_pkt_fwd,16.206139

@@ -1,0 +1,10 @@
+feature,mean_absolute_integrated_gradient
+act_data_pkt_fwd,1.15932
+FwdPSHFlags,2.9300404
+BwdPackets/s,3.1326294
+FwdIATTotal,3.4836457
+MinPacketLength,4.1930547
+FINFlagCount,4.7526126
+BwdPacketLengthStd,9.575494
+PSHFlagCount,10.202578
+DestinationPort,31.200663

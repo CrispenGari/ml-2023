@@ -1,0 +1,2 @@
+baseline_method,validation_selected_method,selection_criterion,baseline_wrong_selected_correct_b,baseline_correct_selected_wrong_c,exact_mcnemar_p_value
+default,truncated_xavier_normal,minimum validation loss,150,64,3.88052265378096e-09
